@@ -4,5 +4,3 @@ function kleur_aanpassen(){
 H1.style.color = "Red"
 H1.innerText = "Inhoud aangepast."
 }
-
-kleur_aanpassen()

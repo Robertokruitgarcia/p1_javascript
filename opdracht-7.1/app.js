@@ -2,8 +2,8 @@ let budget = 100;
 let product = 60;
 
 if(budget > product){
-    console.log("%cU heeft genoeg geld!")
+    console.log("U heeft genoeg geld!")
     
 }else{
-    console.log("%cHelaas, te weinig geld")
+    console.log("Helaas, te weinig geld")
 }    

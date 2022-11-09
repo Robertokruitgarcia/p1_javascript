@@ -16,7 +16,7 @@ function devide(){
     if(Input1 || Input2 <= 0){
         document.getElementById("H1").innerText = "het getal is te laag";
     }else{
-        document.getElementById("H1").innerText = Input1 * Input2;
+        document.getElementById("H1").innerText = Input1 / Input2;
     }
 }
 
@@ -27,7 +27,7 @@ function add(){
     if(Input1 || Input2 <= 0){
         document.getElementById("H1").innerText = "het getal is te laag";
     }else{
-        document.getElementById("H1").innerText = Input1 * Input2;
+        document.getElementById("H1").innerText = Input1 + Input2;
     }
 }
 
@@ -38,6 +38,7 @@ function minus(){
     if(Input1 || Input2 <= 0){
         document.getElementById("H1").innerText = "het getal is te laag";
     }else{
-        document.getElementById("H1").innerText = Input1 * Input2;
+        document.getElementById("H1").innerText = Input1 - Input2;
     }
 }
+
